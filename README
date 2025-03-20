@@ -10,32 +10,33 @@ Diagrama de Classe e Caso de Uso: 1 pessoa
 Prototipações: 1 pessoa
 Apontamentos e Métricas: 1 pessoa
 MVP e Metas Finais: 1 pessoa
+
 2. Elaboração da Documentação
 📌 Objetivo: Criar os documentos necessários para o envio no Forms.
 
-✅ Diagrama de Classe (Responsável: X)
-
+✅ Diagrama de Classe (Possível Responsável: Lucas)
 Utilize ferramentas como Draw.io, Lucidchart ou StarUML.
 Representar as classes, atributos, métodos e seus relacionamentos.
-✅ Diagrama de Caso de Uso (Responsável: Y)
 
+✅ Diagrama de Caso de Uso (Possível Responsável: Alisson)
 Indicar os atores, casos de uso e suas interações com o sistema.
-✅ Prototipação (Responsável: Z)
 
+✅ Prototipação (Possível Responsável: Gustavo)
 Criar telas no Figma, Adobe XD ou outra ferramenta de design.
 Representar a interface do usuário.
-✅ Métricas e Apontamentos (Responsável: W)
 
+✅ Métricas e Apontamentos (Possível Responsável: Vlademir)
 Tempo de trabalho (total de horas gastas no projeto).
 Número de cards por sprint (histórico no Trello, Jira ou outra ferramenta usada).
 Fluxo de trabalho do time (Kanban, Scrum, etc.).
-✅ Estado Atual do MVP (Responsável: T)
 
+✅ Estado Atual do MVP (Possível Responsável: Renan)
 Documentar o que já foi implementado.
-✅ Metas para a Segunda Entrega (10-12/Junho) (Responsável: T)
 
+✅ Metas para a Segunda Entrega (10-12/Junho) (Possível Responsável: Renan)
 Quais recursos estarão prontos até a segunda entrega?
-✅ Metas Futuras (sem prazo definido)
+
+✅ Metas Futuras (Possível Responsável: Grupo Inteiro)(sem prazo definido)
 
 Quais funcionalidades podem ser adicionadas depois?
 📌 Entrega Final: Consolidar tudo em um documento PDF (usando Word, Google Docs, ou LaTeX) e formatar no modelo "Escola de TI".
