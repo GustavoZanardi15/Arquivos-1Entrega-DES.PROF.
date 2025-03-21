@@ -1,0 +1,58 @@
+O QUE ENTREGAR PARA O MVP
+1. Funcionalidades Essenciais da MVP
+Para Clientes
+Cadastro e Login (Nome, e-mail, senha ou login social)
+Listagem de Padarias (Nome, foto e nota de avaliação)
+Cardápio de Produtos (Pães, bolos, doces, bebidas, etc.)
+Carrinho de Compras (Adicionar/remover itens e calcular total)
+Escolha de Pagamento (PIX e dinheiro na entrega para simplicidade inicial)
+Confirmação de Pedido (Resumo e status do pedido)
+Para Padarias
+Cadastro da Padaria (Nome, CNPJ, endereço, horário de funcionamento)
+Gerenciamento de Produtos (Adicionar, editar e remover itens)
+Recebimento de Pedidos (Visualização de novos pedidos e status de entrega)
+3. Fluxo Básico do Usuário
+1️ O cliente entra no app e vê as padarias disponíveis.
+2️ Seleciona uma padaria e escolhe os produtos.
+3️ Finaliza o pedido e escolhe a forma de pagamento.
+4 A padaria recebe a notificação e começa a preparar.
+5️ O pedido é entregue ou fica disponível para retirada.
+Para Clientes
+✅ Cadastro/Login (e-mail/senha ou login social)
+● RF01: O sistema deve permitir que o usuário se cadastre informando nome, usuário
+e e-mail.
+● RF02: O sistema deve permitir que o usuário faça login utilizando CPF e senha.
+● RF03: O sistema deve permitir a recuperação de senha via e-mail.
+Listagem de padarias disponíveis
+● Não tem um requisito específico para essa funcionalidade.
+Exibição do cardápio de produtos de cada padaria
+● RF04: O sistema deve exibir uma lista de produtos organizados por categorias (ex.:
+pães, doces, bebidas).
+● RF05: O sistema deve permitir que o usuário visualize detalhes de um produto,
+incluindo descrição, preço e imagem.
+Adição de produtos ao carrinho e finalização do pedido
+● RF06: O sistema deve permitir que o usuário adicione produtos ao carrinho.
+● RF07: O sistema deve permitir que o usuário remova produtos do carrinho.
+● RF08: O sistema deve calcular automaticamente o valor total dos itens no carrinho.
+● RF09: O sistema deve permitir que o usuário altere a quantidade de produtos no
+carrinho.
+Escolha de pagamento (PIX e dinheiro)
+● RF10: O sistema deve permitir que o usuário escolha a forma de pagamento (cartão
+de crédito, Pix ou dinheiro na entrega).
+● RF11: O sistema deve permitir que o usuário informe troco, caso escolha pagamento
+em dinheiro.
+● RF12: O sistema deve gerar um número de pedido após a finalização da compra.
+Acompanhamento do status do pedido
+● RF13: O sistema deve permitir que o usuário acompanhe o status do pedido (pedido
+aceito/tempo médio de entrega, pedido saiu para entrega, pedido entregue).
+Para Padarias
+Cadastro da padaria e gerenciamento do cardápio
+● RF18: O sistema deve permitir que o administrador cadastre, edite e remova
+produtos.
+Recebimento e gerenciamento de pedidos
+● RF19: O sistema deve permitir que o administrador visualize todos os pedidos em
+andamento.
+● RF20: O sistema deve permitir que o administrador atualize o status dos pedidos.
+Para Administradores
+Dashboard para monitoramento de pedidos e padarias cadastradas
+● RF21: O sistema deve gerar relatórios de vendas por período.
