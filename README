@@ -70,6 +70,120 @@ Enviar o vídeo para o YouTube ou Google Drive.
 📌 Objetivo: Garantir que todos os itens estão completos antes do prazo final.
 
 🔹 Checklist Final (1-2 dias antes do prazo)
+
+=================================================================================================================================
+
+## Introdução
+Este documento descreve o fluxo de navegação do aplicativo Padoca Delivery.
+
+---
+
+## 1. Tela de Integração/Introdução
+**Descrição:** Apresenta o aplicativo ao usuário, destacando funcionalidades principais.
+- **Entrada:** Primeiro acesso ao aplicativo.
+- **Saída:**
+  - Seguir para Login
+  - Seguir para Cadastro
+  - Pular introdução e ir para a tela inicial (se já logado)
+
+---
+
+## 2. Tela de Login/Cadastro
+**Descrição:** Permite que o usuário entre na conta ou crie uma nova.
+- **Entrada:**
+  - Vindo da Tela de Integração
+  - Vindo de qualquer outra tela ao deslogar
+- **Saída:**
+  - Para Tela de Código de Verificação (se for novo cadastro)
+  - Para Tela de Início (se login for bem-sucedido)
+  - Para Recuperação de Senha
+
+---
+
+## 3. Tela de Código de Verificação
+**Descrição:** Confirmação da conta via código enviado por e-mail/SMS.
+- **Entrada:** Vindo do Cadastro.
+- **Saída:**
+  - Para Tela de Definir Perfil (se código correto)
+  - Para reenviar código
+
+---
+
+## 4. Tela de Definir Perfil
+**Descrição:** Permite ao usuário definir preferências para recomendações personalizadas.
+- **Entrada:** Vindo da Tela de Código de Verificação.
+- **Saída:** Para Tela de Início.
+
+---
+
+## 5. Tela de Início
+**Descrição:** Página principal com promoções, categorias e produtos.
+- **Entrada:**
+  - Após login bem-sucedido
+  - Após definir perfil
+  - Ao navegar pelo menu
+- **Saída:**
+  - Para qualquer tela principal (Ofertas, Categorias, Pedidos, etc.)
+  - Para Tela de Perfil
+
+---
+
+## 6. Tela de Endereços
+**Descrição:** Gerencia os endereços de entrega do usuário.
+- **Entrada:** Vindo do menu ou do fluxo de compra.
+- **Saída:**
+  - Para Tela de Pagamento
+  - Para Tela de Início
+
+---
+
+## 7. Tela de Ofertas
+**Descrição:** Lista de promoções e descontos.
+- **Entrada:** Vindo do menu ou de banners promocionais.
+- **Saída:** Para Tela de Categoria de Produtos ou Tela de Início.
+
+---
+
+## 8. Tela de Categoria de Produtos
+**Descrição:** Apresenta categorias de produtos como pães, doces e bebidas.
+- **Entrada:** Vindo da Tela de Início ou Ofertas.
+- **Saída:** Para Tela de Detalhes do Produto ou Tela de Início.
+
+---
+
+## 9. Tela de Meus Pedidos
+**Descrição:** Exibe o histórico de pedidos e status de entregas.
+- **Entrada:** Vindo do menu principal.
+- **Saída:**
+  - Para detalhes de um pedido específico
+  - Para Tela de Cancelamento
+
+---
+
+## 10. Tela de Pagamento
+**Descrição:** Permite escolher o método de pagamento (PIX, Cartão, etc.).
+- **Entrada:** Após confirmar o carrinho.
+- **Saída:**
+  - Para confirmação do pedido
+  - Para Tela de Início
+
+---
+
+## 11. Tela de Cancelamento
+**Descrição:** Processo de cancelamento de um pedido.
+- **Entrada:** Vindo da Tela de Meus Pedidos.
+- **Saída:**
+  - Para Tela de Meus Pedidos (caso cancelado)
+  - Para Suporte
+
+---
+
+## 12. Tela de Perfil
+**Descrição:** Exibe dados pessoais, endereços e histórico do usuário.
+- **Entrada:** Vindo do menu principal.
+- **Saída:**
+  - Para edição de dados
+  - Para Tela de Início
 ✔ Revisar a formatação do documento PDF.
 ✔ Conferir os diagramas e a prototipação.
 ✔ Checar se todas as métricas estão documentadas.
